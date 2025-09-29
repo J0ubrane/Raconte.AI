@@ -10,7 +10,7 @@ from transformers import ViTForImageClassification, ViTImageProcessor
 import openai
 import io
 import base64
-openai.api_key = "SECRET"
+openai.api_key = ""
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
